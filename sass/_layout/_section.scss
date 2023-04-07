@@ -1,0 +1,32 @@
+//Main Body Start
+
+.container {
+	margin: 0 auto;
+	width: 750px;
+}
+
+.main-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	.title-main {
+		text-align: center;
+	}
+
+	.form-button {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 20px;
+	}
+
+	.image-block {
+		margin: 20px auto;
+		.img_style {
+			max-height: 500px;
+			border-radius: 8px;
+			border: 1px solid white;
+		}
+	}
+}

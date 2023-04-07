@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="./img/favi.png" />
+	<link rel="stylesheet" href="./sass/main.css">
+	<title>Random Cards</title>
+</head>
+
+<body>
+	<div class="container">
+		<section class="main-block">
+			<h5 class="title-main">Выбор случайной карты из колоды:</h5>
+			<div class="form-button">
+				<select id="deck" class="cmn--btn2">
+					<option value="deck1">Внутренняя опора [MACards]</option>
+					<option value="deck2">Многомерная Книга Перемен «И-Цзин»</option>
+					<option value="deck3">Точка опоры 2 [Ирина Федорова]</option>
+					<!-- Добавьте другие колоды по аналогии -->
+				</select>
+
+				<button onclick="selectRandomCard()" class="cmn--btn">Выбрать случайную карту</button>
+			</div>
+			<div class="image-block">
+				<img id="cardImage" src="./decks/back.png" class="img_style" alt="Карта">
+			</div>
+		</section>
+		<div class="footer__bottom">
+			<h6>
+				Copyright &copy; 2023, <a href="#">Game and MACs</a> - All Right Reserved
+			</h6>
+		</div>
+
+	</div>
+	<script src="src/mixing.js"></script>
+</body>
+
+</html>

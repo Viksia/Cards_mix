@@ -1,0 +1,88 @@
+/*--Button Area Start--*/
+/*--Button Area Start--*/
+.cmn--btn {
+	padding: 10px 30px 12px;
+	font-size: 18px;
+	line-height: 23px;
+	font-weight: 600;
+	display: inline-block;
+	color: #0e1322 !important;
+	text-transform: capitalize;
+	font-family: "Jost", sans-serif;
+	transition: all 0.3s;
+	text-align: center;
+	background: #35c31e;
+	border-radius: 10px;
+	border: 1px solid var(--white-color);
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	&::before {
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		background: linear-gradient(114.26deg, #1fa711 13.41%, #35c31e 87.24%);
+		height: 100%;
+		width: 0px;
+		transition: all 0.4s;
+	}
+	&:hover::before {
+		width: 100%;
+	}
+	&:hover {
+		color: var(--white-color) !important;
+	}
+	&:hover {
+		span {
+			color: #0e1322;
+		}
+	}
+	span {
+		z-index: 1;
+		position: relative;
+		transition: all 0.4s;
+	}
+}
+.cmn--btn2 {
+	border-radius: 10px;
+	padding: 9px 30px 11px;
+	font-size: 18px;
+	line-height: 23px;
+	font-weight: 400;
+	display: inline-block;
+	color: var(--white-color) !important;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	transition: all 0.3s;
+	font-family: "Jost", sans-serif;
+	text-align: center;
+	background-color: #0e1322;
+	position: relative;
+	overflow: hidden;
+	&::before {
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		background: linear-gradient(114.26deg, #e4a91b 13.41%, #f88021 87.24%);
+		height: 100%;
+		width: 0px;
+		transition: all 0.4s;
+	}
+	&:hover::before {
+		width: 100%;
+	}
+	&:hover {
+		span {
+			color: #0e1322;
+		}
+	}
+	span {
+		z-index: 1;
+		position: relative;
+		transition: all 0.4s;
+	}
+}
+
+/*--Button Area End--*/
