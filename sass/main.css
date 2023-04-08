@@ -18,7 +18,7 @@
   --jack-bg: #251145;
   --modal-bg: #242d04;
   --body-color: #000616;
-  --custom-base: #0593f0;
+  --custom-base: #1fa711;
   --section-bg: #231d70;
   --white-color: #fff;
   --black-theme: #151515;
@@ -608,7 +608,7 @@ p {
 .cmn--btn2::before {
   position: absolute;
   content: "";
-  top: 0;
+  top: 0px;
   left: 0;
   background: linear-gradient(114.26deg, #e4a91b 13.41%, #f88021 87.24%);
   height: 100%;
@@ -618,8 +618,13 @@ p {
 .cmn--btn2:hover::before {
   width: 100%;
 }
-.cmn--btn2:hover span {
-  color: #0e1322;
+.cmn--btn2 select {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.cmn--btn2 select:hover {
+  color: var(--placehol);
 }
 .cmn--btn2 span {
   z-index: 1;
