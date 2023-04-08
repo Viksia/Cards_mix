@@ -2,7 +2,7 @@
 /*--Button Area Start--*/
 .cmn--btn {
 	padding: 10px 30px 12px;
-	font-size: 18px;
+	font-size: 17px;
 	line-height: 23px;
 	font-weight: 600;
 	display: inline-block;
@@ -13,7 +13,7 @@
 	text-align: center;
 	background: #35c31e;
 	border-radius: 10px;
-	border: 1px solid var(--white-color);
+	border: 1px solid var(--placehol);
 	position: relative;
 	overflow: hidden;
 	z-index: 1;
@@ -46,8 +46,9 @@
 }
 .cmn--btn2 {
 	border-radius: 10px;
+	border: 1px solid var(--placehol);
 	padding: 9px 30px 11px;
-	font-size: 18px;
+	font-size: 17px;
 	line-height: 23px;
 	font-weight: 400;
 	display: inline-block;

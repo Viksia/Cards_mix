@@ -6,30 +6,30 @@
 /*Abstracts / mixins*/
 /*Abstracts / variables*/
 :root {
-  --theme-color: #3BE41F;
-  --base-color: #35C31E;
+  --theme-color: #3be41f;
+  --base-color: #35c31e;
   --header-color: #000616;
-  --banner-color: #35082B;
-  --banner-box: #18233F;
-  --amaount-color: #05FF00;
-  --box-bg: #7652E1;
-  --box-two: #25355C;
-  --hover1: #1A2030;
+  --banner-color: #35082b;
+  --banner-box: #18233f;
+  --amaount-color: #05ff00;
+  --box-bg: #7652e1;
+  --box-two: #25355c;
+  --hover1: #1a2030;
   --jack-bg: #251145;
-  --modal-bg: #242D04;
+  --modal-bg: #242d04;
   --body-color: #000616;
-  --custom-base: #0593F0;
+  --custom-base: #0593f0;
   --section-bg: #231d70;
   --white-color: #fff;
   --black-theme: #151515;
   --black-color: #000000;
-  --calender: #191D23;
-  --ratting-color: #E4A853;
+  --calender: #191d23;
+  --ratting-color: #e4a853;
   --pragraph-color: #666666;
-  --border: #35C31E;
-  --border-two: #A09FC8;
-  --cate-border: #E1CFB7;
-  --placehol: #b0bcde;
+  --border: #35c31e;
+  --border-two: #a09fc8;
+  --cate-border: #e1cfb7;
+  --placehol: #cccccc;
 }
 
 /*Abstracts / variables*/
@@ -497,13 +497,13 @@ p {
 /*Abstracts / footer*/
 /*------Footer Section Start--------*/
 .footer__bottom {
-  border-top: 1px solid #485147;
+  border-top: 1px solid var(--placehol);
   margin: 0 auto;
 }
 .footer__bottom h6 {
-  font-size: 18px;
+  font-size: 14px;
   text-align: center;
-  margin: 20px;
+  margin: 14px;
   color: var(--white-color);
 }
 .footer__bottom h6 a {
@@ -524,6 +524,7 @@ p {
 }
 .main-block .title-main {
   text-align: center;
+  margin-bottom: 20px;
 }
 .main-block .form-button {
   display: flex;
@@ -537,7 +538,7 @@ p {
 .main-block .image-block .img_style {
   max-height: 500px;
   border-radius: 8px;
-  border: 1px solid white;
+  border: 1px solid var(--placehol);
 }
 
 /*Abstracts / componets*/
@@ -545,7 +546,7 @@ p {
 /*--Button Area Start--*/
 .cmn--btn {
   padding: 10px 30px 12px;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 23px;
   font-weight: 600;
   display: inline-block;
@@ -556,7 +557,7 @@ p {
   text-align: center;
   background: #35c31e;
   border-radius: 10px;
-  border: 1px solid var(--white-color);
+  border: 1px solid var(--placehol);
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -588,8 +589,9 @@ p {
 
 .cmn--btn2 {
   border-radius: 10px;
+  border: 1px solid var(--placehol);
   padding: 9px 30px 11px;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 23px;
   font-weight: 400;
   display: inline-block;
